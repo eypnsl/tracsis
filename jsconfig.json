@@ -1,0 +1,9 @@
+// tracsis/jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"] // Kök dizini (tracsis/) "~" ile temsil et
+    }
+  }
+}
